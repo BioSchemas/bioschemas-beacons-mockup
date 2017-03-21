@@ -3,7 +3,6 @@
 This is a Proof of Concept to show how [Beacon's Web Pages](https://beacon-network.org/#/), can be enriched by [DataCatalog schema](http://schema.org/DataCatalog) and made it easy to mantain an updated registry of existing beacons and it's datasets.
 
 ## Requirements
-
 For this Proof of concept to work you will need:
 1. Homebrew installed. [Installation](https://brew.sh/)
 2. Python 3 with virtual environment installed. [Installation](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos)
@@ -40,9 +39,18 @@ For this Proof of concept to work you will need:
 
 ## Process
 This image summarises the process of this Proof Of Concept
-
 ![Image of Beacon - Registry Project](http://gdurl.com/MJFd)
 
+## Test Code
+Follow the process to repeat the proof of concept in your computer.
+1. Download beacon’s pages with schema, folder: beacons_pages_schema.
+2. Host this folder in your localhost httpdocs directory of XAMPP
+3. Download Python 3 virtual environment folder: python_code 
+4. Create in python_code directory a folder called `beacon_registry` -> `mkdir beacon_registry`.
+5. Open terminal or Console make a virtual environment called `beacon_registry` with the following command `pyvenv beacon_registry`
+6. Go to python_code folder an execute `beacon_registry/bin/activate`
+7. Execute spider read_beacons.py
+8. Open registry_results.html
 
 ### Support or Contact
 
