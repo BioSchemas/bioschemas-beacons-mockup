@@ -10,9 +10,9 @@ For this Proof of concept to work you will need:
 3. Scrapy installed. [Documentation](https://doc.scrapy.org/en/latest/intro/tutorial.html)
 4. Install Extruct. [Installation](https://github.com/scrapinghub/extruct)
 5. Install a Web Server as [XAMPP](https://www.apachefriends.org/index.html) to host modified beacon's pages.
+6. Test your Web Pages Modifications [Google Schema Validator](https://search.google.com/structured-data/testing-tool)
 
-##Proposed Schema from schema.org (DataCatalog)
-
+## Proposed Schema from schema.org (DataCatalog)
 ```html
 <!DOCTYPE html>
 <html>
@@ -35,6 +35,8 @@ For this Proof of concept to work you will need:
   </body>
 </html>
 ```
+## Sample Beacon GA4GH Beacon with DataCatalog Schema
+![Sample of GA4GH Beacon with ](http://gdurl.com/SI21)
 
 ## Process
 This image summarises the process of this Proof Of Concept
