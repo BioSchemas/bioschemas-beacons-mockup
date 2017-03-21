@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Welcome to Beacon - Registry
 
-You can use the [editor on GitHub](https://github.com/BioSchemas/Beacon-Registry/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a Proof of Concept to show how [Beacon's Web Pages] (https://beacon-network.org/#/), can be enriched by [DataCatalog schema] (http://schema.org/DataCatalog) and made it easy to mantain an updated registry of existing beacons and it's datasets.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Requirements
 
-### Markdown
+For this Proof of concept to work you will need:
+1. Homebrew installed. [Installation] (https://brew.sh/)
+2. Python 3 with virtual environment installed. [Installation] (https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos)
+3. Install Extruct. [Installation] (https://github.com/scrapinghub/extruct)
+4. Install a Web Server as [XAMPP] (https://www.apachefriends.org/index.html) to host modified beacon's pages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Process
+This image summarises the process of this Proof Of Concept
 
-```markdown
-Syntax highlighted code block
+![Image of Beacon - Registry Project](http://gdurl.com/MJFd)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BioSchemas/Beacon-Registry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For futher information [contact] (mailto:guillermo.calderon@elixir-europe.org) or @guicalman.
