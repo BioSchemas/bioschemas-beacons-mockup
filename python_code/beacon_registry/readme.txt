@@ -1,0 +1,1 @@
+In this folder you have the python virtual environment.
