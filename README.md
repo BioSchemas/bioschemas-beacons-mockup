@@ -1,8 +1,7 @@
-# Welcome to Beacon - Registry
+# Objective
+This is a Proof of Concept to show how [Beacons](https://genomicsandhealth.org/work-products-demonstration-projects/beacon-project-0) can expose [Schema.org](http://schema.org) markup and how this metadata can be easily harvested to automatically maintain an updated beacon registry.
 
-This is a Proof of Concept to show how [Beacon's Web Pages](https://beacon-network.org/#/), can be enriched by [DataCatalog schema](http://schema.org/DataCatalog) and made it easy to mantain an updated registry of existing beacons and it's datasets.
-
-## Requirements
+# Requirements
 For this Proof of concept to work you will need:
 1. Homebrew installed. [Installation](https://brew.sh/)
 2. Python 3 with virtual environment installed. [Installation](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos)
@@ -11,7 +10,8 @@ For this Proof of concept to work you will need:
 5. Install a Web Server as [XAMPP](https://www.apachefriends.org/index.html) to host modified beacon's pages.
 6. Test your Web Pages Modifications [Google Schema Validator](https://search.google.com/structured-data/testing-tool)
 
-## Proposed Schema from schema.org (DataCatalog)
+# Schema.org markup
+For this mock up we did chose the [DataCatalog schema.org type](http://schema.org/DataCatalog) and just few properties to prove the concept.
 ```html
 <!DOCTYPE html>
 <html>
@@ -24,25 +24,25 @@ For this Proof of concept to work you will need:
       <h1 property="name">Beacon's Name</h1>
       <span property="description">Here you put the Beacon's despcription</span>
       <select typeof="DataSet" property="dataset">
-          <option property="name" value="genes1">Genes1</option>
-          <option property="name" value="genes2">Genes2</option>
-          <option property="name" value="genes3">Genes3</option>
-          <option property="name" value="genes4">Genes4</option>
+          <option property="name" value="dataset_name_1">dataset_name_1</option>
+          <option property="name" value="dataset_name_2">dataset_name_2</option>
+          <option property="name" value="dataset_name_3">dataset_name_3</option>
+          <option property="name" value="dataset_name_4">dataset_name_4</option>
       </select>
       <span property="version">API version 0.0.0</span>
     </div>
   </body>
 </html>
 ```
-## Sample Beacon GA4GH Beacon with DataCatalog Schema
+# Beacon mockup Schema.org markup
 ![Sample of GA4GH Beacon with ](http://gdurl.com/SI21)
 
-## Process
-This image summarises the process of this Proof Of Concept
+# Collection of metadata into a registry
+Process we followed to integrate metadata from several beacons mockups
 ![Image of Beacon - Registry Project](http://gdurl.com/MJFd)
 
-## Test Code
-Follow the process to repeat the proof of concept in your computer.
+# Test Code
+Steps to reproduce this proof of concept
 1. Download beacon’s pages with schema, folder: beacons_pages_schema.
 2. Host this folder in your localhost httpdocs directory of XAMPP
 3. Download Python 3 virtual environment folder: python_code 
@@ -52,5 +52,5 @@ Follow the process to repeat the proof of concept in your computer.
 7. Execute spider `spyder.py`
 8. Open `index.html` file created at the `results_page` directory.
 
-## Support or Contact
+# Support or Contact
 For futher information [contact](mailto:guillermo.calderon@elixir-europe.org) or @guicalman.
