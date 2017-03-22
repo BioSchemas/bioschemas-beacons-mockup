@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Result of Beacons Scrapying</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col card s12 blue darken-3 white-text">
+            <h2 class="center">Results from scrapying beacons</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s10 offset-s1">
+            <div class="card">
+              <table class="highlight responsive-table">
+                <thead>
+                  <tr>
+                      <th>Beacon Name</th>
+                      <th>Description</th>
+                      <th>Version</th>
+                      <th>DataSet</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>EGA Beacon</td>
+                    <td>Note: The EGA archives a large number of datasets, some of which are Publicly available. If you have an account on this website, you can access to Registered datasets. To access Controlled datasets can be done by contacting the relevant Data Access Committee (DAC), whose details are displayed on the Dataset description page under "Who controls access to this dataset" (click on the Dataset ID to go to the Dataset page). Once you have access to a dataset, you will be able to query it at EGA Beacon.</td>
+                    <td>This Beacon is based on the GA4GH Beacon API 0.3</td>
+                    <td>
+                      <ol>
+                        <li>EGAD00001000740</li>
+                        <li>EGAD00001000741</li>
+                        <li>All GRCh37</li>
+                      </ol>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>GA4GH Beacon</td>
+                    <td>Select the chromosome, and location of your observed allele, along with the value observed The server will return "Yes" or "No" to indicate that we have already observed the particular allele (and "error" if there was a problem retrieving data from the data file) Note: server will respond "No" if the allele is the reference allele</td>
+                    <td>Version Unknown</td>
+                    <td>
+                      <ol>
+                        <li>ibd</li>
+                        <li>egyptian</li>
+                        <li>uk10k</li>
+                      </ol>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
