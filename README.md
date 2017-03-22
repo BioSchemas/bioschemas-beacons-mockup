@@ -1,5 +1,5 @@
 # Objective
-This is a Proof of Concept to show how [Beacons](https://genomicsandhealth.org/work-products-demonstration-projects/beacon-project-0) can expose [Schema.org](http://schema.org) markup and how this metadata can be easily harvested to automatically maintain an updated beacon registry.
+This is a Proof of Concept to show how [Beacons](https://genomicsandhealth.org/work-products-demonstration-projects/beacon-project-0) can expose [Schema.org](http://schema.org) markup and how Schema.org metadata annotations can be easily harvested to automatically maintain an updated beacon registry.
 
 # Requirements
 For this Proof of concept to work you will need:
