@@ -49,8 +49,8 @@ Follow the process to repeat the proof of concept in your computer.
 4. Create in python_code directory a folder called `beacon_registry` -> `mkdir beacon_registry`.
 5. Open terminal or Console make a virtual environment called `beacon_registry` with the following command `pyvenv beacon_registry`
 6. Go to python_code folder an execute `beacon_registry/bin/activate`
-7. Execute spider read_beacons.py
-8. Open registry_results.html
+7. Execute spider `spyder.py`
+8. Open `index.html` file created at the `results_page` directory.
 
 ### Support or Contact
 
