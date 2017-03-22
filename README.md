@@ -49,7 +49,7 @@ Steps to reproduce this proof of concept
 4. Create in python_code directory a folder called `beacon_registry` -> `mkdir beacon_registry`.
 5. Open terminal or Console make a virtual environment called `beacon_registry` with the following command `pyvenv beacon_registry`
 6. Go to python_code folder an execute `beacon_registry/bin/activate`
-7. Execute spider `beacon_spider.py` located at [`bioschemas-beacons-mockup/python_code/beacon_spyder/beacon_spyder/spiders/`](https://github.com/BioSchemas/bioschemas-beacons-mockup/tree/master/python_code/beacon_spyder/beacon_spyder/spiders)
+7. Execute spider `beacon_spider.py` located at [`bioschemas-beacons-mockup/python_code/beacon_spyder/beacon_spyder/spiders/`](https://github.com/BioSchemas/bioschemas-beacons-mockup/tree/master/python_code/beacon_spyder/beacon_spyder/spiders) usando el siguiente comando: `$ scrapy crawl beacons_links`     
 8. Open `index.html` file created at the [`bioschemas-beacons-mockup/results_page/`](https://github.com/BioSchemas/bioschemas-beacons-mockup/tree/master/results_page) directory.
 
 # Support or Contact
