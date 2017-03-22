@@ -52,6 +52,5 @@ Follow the process to repeat the proof of concept in your computer.
 7. Execute spider `spyder.py`
 8. Open `index.html` file created at the `results_page` directory.
 
-### Support or Contact
-
+## Support or Contact
 For futher information [contact](mailto:guillermo.calderon@elixir-europe.org) or @guicalman.
